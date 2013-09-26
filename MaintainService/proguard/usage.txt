@@ -1,0 +1,236 @@
+android.annotation.SuppressLint
+android.annotation.TargetApi
+com.coortouch.adnroid.helper.SaveFileHelper
+com.coortouch.adnroid.helper.ScreenManager:
+====    52:57:public void popActivity()
+====    60:65:public void popActivity(android.app.Activity)
+====    80:90:public void popAllActivityExceptOne(java.lang.Class)
+com.coortouch.android.adapter.CTHAdapter:
+====    public abstract android.view.View getView(int,android.view.View,android.view.ViewGroup)
+com.coortouch.android.categoryview.CateSimpleAdapter
+com.coortouch.android.gesture.imageview.FlingAnimation:
+====    68:69:public void setFactor(float)
+com.coortouch.android.gesture.imageview.GestureImageView:
+    public static final java.lang.String GLOBAL_NS
+    public static final java.lang.String LOCAL_NS
+====    428:430:public void moveBy(float,float)
+====    472:472:public boolean isStrict()
+====    480:480:public boolean isRecycle()
+====    488:492:public void reset()
+====    495:496:public void setRotation(float)
+====    499:500:public void setGestureImageViewListener(com.coortouch.android.gesture.imageview.GestureImageViewListener)
+====    674:674:public boolean isPortrait()
+====    682:684:public void setStartingPosition(float,float)
+====    700:706:public boolean isOrientationAligned()
+com.coortouch.android.gesture.imageview.GestureImageViewTouchListener:
+====    458:465:public void reset()
+====    469:469:public float getMaxScale()
+====    477:477:public float getMinScale()
+com.coortouch.android.gesture.imageview.MathUtils:
+====    22:22:public MathUtils()
+====    37:39:public static float distance(float,float,float,float)
+====    61:67:public void rotate(android.graphics.PointF,android.graphics.PointF,float)
+com.coortouch.android.gesture.imageview.MoveAnimation:
+====    73:75:public void reset()
+====    79:79:public float getTargetX()
+====    84:85:public void setTargetX(float)
+====    89:89:public float getTargetY()
+====    93:94:public void setTargetY(float)
+====    97:97:public long getAnimationTimeMS()
+====    101:102:public void setAnimationTimeMS(long)
+com.coortouch.android.gesture.imageview.ZoomAnimation:
+====    129:129:public float getZoom()
+====    137:137:public float getTouchX()
+====    145:145:public float getTouchY()
+====    153:153:public long getAnimationLengthMS()
+====    157:158:public void setAnimationLengthMS(long)
+====    161:161:public com.coortouch.android.gesture.imageview.ZoomAnimationListener getZoomAnimationListener()
+com.coortouch.android.listview.pulltorefershview.PullToRefershListView:
+    private static final int RELEASE_To_REFRESH
+    private static final int PULL_To_REFRESH
+    private static final int REFRESHING
+    private static final int DONE
+    private static final int LOADING
+    private static final int RATIO
+====    431:432:public void setFootViewOnClickListener(com.coortouch.android.listview.pulltorefershview.PullToRefershListView$FootViewOnClickListener)
+====    438:439:public void showFootProgressBar()
+====    441:442:public void hideFootProgressBar()
+====    466:470:public void reSetHeadFootText()
+com.coortouch.android.marguee.textview.MargueeTextView:
+====    11:12:public MargueeTextView(android.content.Context)
+com.coortouch.android.switchbutton.SwitchButton:
+====    160:161:public void setOnSwitchStateChangedListener(com.coortouch.android.switchbutton.SwitchButton$OnSwitchStateChangedListener)
+====    177:177:public boolean isSlipping()
+com.coortouch.android.switchbutton.SwitchView:
+    static final int DEFAULT_TEXT_SIZE
+====    78:80:public void setTextOn(java.lang.String)
+====    83:85:public void setTextOff(java.lang.String)
+====    87:94:private void updateTextBound()
+====    155:156:public void setOnSwitchChangeListener(com.coortouch.android.switchbutton.SwitchView$OnSwitchChangeListener)
+====    231:252:public void setSwitchOn(boolean)
+====    254:254:public boolean isSwitchOn()
+====    257:261:public void setOnOffString(java.lang.String[])
+====    264:268:public void setBackgroundSwitchOn(int)
+====    271:275:public void setBackgroundSwitchOff(int)
+com.coortouch.android.switchbutton.SwitchView$Switch:
+====    376:376:public int getY()
+====    379:380:public void setY(int)
+====    382:382:public android.graphics.Bitmap getImg()
+com.coortouch.android.urlimagehelper.Constants
+com.coortouch.android.urlimagehelper.DiskLruCache
+com.coortouch.android.urlimagehelper.DiskLruCache$1
+com.coortouch.android.urlimagehelper.DiskLruCache$Editor
+com.coortouch.android.urlimagehelper.DiskLruCache$Editor$FaultHidingOutputStream
+com.coortouch.android.urlimagehelper.DiskLruCache$Entry
+com.coortouch.android.urlimagehelper.DiskLruCache$Snapshot
+com.coortouch.android.urlimagehelper.HttpUrlDownloader:
+====    19:19:public com.coortouch.android.urlimagehelper.UrlImageViewHelper$RequestPropertiesCallback getRequestPropertiesCallback()
+====    23:24:public void setRequestPropertiesCallback(com.coortouch.android.urlimagehelper.UrlImageViewHelper$RequestPropertiesCallback)
+com.coortouch.android.urlimagehelper.LruCache:
+    private int createCount
+====    62:105:public final java.lang.Object get(java.lang.Object)
+====    226:226:protected java.lang.Object create(java.lang.Object)
+====    252:253:public final void evictAll()
+====    261:261:public final synchronized int size()
+====    270:270:public final synchronized int maxSize()
+====    277:277:public final synchronized int hitCount()
+====    285:285:public final synchronized int missCount()
+====    292:292:public final synchronized int createCount()
+====    299:299:public final synchronized int putCount()
+====    306:306:public final synchronized int evictionCount()
+====    314:314:public final synchronized java.util.Map snapshot()
+com.coortouch.android.urlimagehelper.UrlImageCache
+com.coortouch.android.urlimagehelper.UrlImageViewHelper:
+    public static final int CACHE_DURATION_INFINITE
+    public static final int CACHE_DURATION_ONE_DAY
+    public static final int CACHE_DURATION_TWO_DAYS
+    public static final int CACHE_DURATION_THREE_DAYS
+    public static final int CACHE_DURATION_FOUR_DAYS
+    public static final int CACHE_DURATION_FIVE_DAYS
+    public static final int CACHE_DURATION_SIX_DAYS
+    public static final int CACHE_DURATION_ONE_WEEK
+    private static com.coortouch.android.urlimagehelper.UrlImageViewHelper$RequestPropertiesCallback mRequestPropertiesCallback
+====    78:79:public static void setUseBitmapScaling(boolean)
+====    87:87:public static boolean getUseBitmapScaling()
+====    149:150:public static void setUrlDrawable(android.widget.ImageView,java.lang.String,int)
+====    165:166:public static void loadUrlDrawable(android.content.Context,java.lang.String)
+====    181:182:public static void setUrlDrawable(android.widget.ImageView,java.lang.String,android.graphics.drawable.Drawable)
+====    197:198:public static void setUrlDrawable(android.widget.ImageView,java.lang.String,int,long)
+====    201:202:public static void loadUrlDrawable(android.content.Context,java.lang.String,long)
+====    219:220:public static void setUrlDrawable(android.widget.ImageView,java.lang.String,android.graphics.drawable.Drawable,long)
+====    237:242:private static void setUrlDrawable(android.content.Context,android.widget.ImageView,java.lang.String,int,long)
+====    258:259:public static void setUrlDrawable(android.widget.ImageView,java.lang.String,int,com.coortouch.android.urlimagehelper.UrlImageViewCallback)
+====    273:274:public static void setUrlDrawable(android.widget.ImageView,java.lang.String,com.coortouch.android.urlimagehelper.UrlImageViewCallback)
+====    277:278:public static void loadUrlDrawable(android.content.Context,java.lang.String,com.coortouch.android.urlimagehelper.UrlImageViewCallback)
+====    296:297:public static void setUrlDrawable(android.widget.ImageView,java.lang.String,android.graphics.drawable.Drawable,com.coortouch.android.urlimagehelper.UrlImageViewCallback)
+====    315:316:public static void setUrlDrawable(android.widget.ImageView,java.lang.String,int,long,com.coortouch.android.urlimagehelper.UrlImageViewCallback)
+====    319:320:public static void loadUrlDrawable(android.content.Context,java.lang.String,long,com.coortouch.android.urlimagehelper.UrlImageViewCallback)
+====    340:341:public static void setUrlDrawable(android.widget.ImageView,java.lang.String,android.graphics.drawable.Drawable,long,com.coortouch.android.urlimagehelper.UrlImageViewCallback)
+====    361:366:private static void setUrlDrawable(android.content.Context,android.widget.ImageView,java.lang.String,int,long,com.coortouch.android.urlimagehelper.UrlImageViewCallback)
+====    424:436:public static android.graphics.Bitmap getCachedBitmap(java.lang.String)
+====    690:690:public static java.util.ArrayList getDownloaders()
+====    707:707:public static com.coortouch.android.urlimagehelper.UrlImageViewHelper$RequestPropertiesCallback getRequestPropertiesCallback()
+====    711:712:public static void setRequestPropertiesCallback(com.coortouch.android.urlimagehelper.UrlImageViewHelper$RequestPropertiesCallback)
+====    728:738:public static android.graphics.Bitmap remove(java.lang.String)
+com.coortouch.android.urlimagehelper.UrlLruCache
+com.coortouch.android.urlimagehelper.WrapperDrawable
+com.coortouch.android.views.ui.BaseView
+com.coortouch.app.constant.Constant
+com.coortouch.app.helper.AnimCommon:
+====    3:3:public AnimCommon()
+com.coortouch.app.helper.SharePreferenceHelper:
+    public static final java.lang.String SHAREPREFENCENAME
+    public static final java.lang.String Cache_GuideCate
+    public static final java.lang.String Cache_NewsCate
+    public static final java.lang.String Cache_BnuzNews
+    public static final java.lang.String Cache_Guide
+    public static final java.lang.String Cache_GuideDepartment
+    public static final java.lang.String Cache_BnuzSystem
+    public static final java.lang.String Cache_Customer
+====    21:21:public SharePreferenceHelper()
+====    51:54:public static java.lang.Boolean setIntValue(android.content.Context,java.lang.String,int)
+====    58:59:public static int getIntValue(android.content.Context,java.lang.String)
+====    63:66:public static java.lang.Boolean setLongValue(android.content.Context,java.lang.String,java.lang.Long)
+====    70:71:public static java.lang.Long getLongValue(android.content.Context,java.lang.String)
+====    155:167:public static java.util.List getBnuzGuideDepartmentCacheData(android.content.Context)
+====    239:244:public static java.lang.String getCustomerId(android.content.Context)
+com.coortouch.app.helper.SharePreferenceHelper$4
+com.coortouch.app.helper.WIFIHelper:
+    android.content.Context context
+====    16:19:public WIFIHelper(android.content.Context)
+com.coortouch.app.updatevision.Global
+com.coortouch.app.wcf.BaseService:
+====    23:29:public void cancel()
+====    32:38:public void destroy()
+com.coortouch.app.wcf.BnuzCustomerService:
+====    95:154:public void Register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.coortouch.app.wcf.listener.GetOneRecordListener)
+com.coortouch.app.wcf.BnuzCustomerService$2
+com.coortouch.bnuz.activity.BaseGroup:
+    private static final java.lang.String TAG
+====    31:54:public void switchActivity(java.lang.String,android.content.Intent,int,int)
+====    80:84:public void popSome(java.lang.String)
+com.coortouch.bnuz.activity.Bnuz_MoreActivity:
+    android.app.AlertDialog updateDialog
+    android.app.ProgressDialog progressDialog
+    android.widget.Button btnExit
+com.coortouch.bnuz.activity.BuildConfig
+com.coortouch.bnuz.activity.Manifest
+com.coortouch.bnuz.activity.Manifest$permission
+com.coortouch.bnuz.activity.MyReceiver:
+    private static final java.lang.String TAG
+    public static final java.lang.String NOTIFICATION_SERVICE
+    private static final int NOTIF_CONNECTED
+com.coortouch.bnuz.activity.R:
+====    10:10:public R()
+com.coortouch.bnuz.activity.R$anim
+com.coortouch.bnuz.activity.R$array
+com.coortouch.bnuz.activity.R$attr
+com.coortouch.bnuz.activity.R$bool
+com.coortouch.bnuz.activity.R$color
+com.coortouch.bnuz.activity.R$dimen
+com.coortouch.bnuz.activity.R$drawable
+com.coortouch.bnuz.activity.R$id
+com.coortouch.bnuz.activity.R$integer
+com.coortouch.bnuz.activity.R$layout
+com.coortouch.bnuz.activity.R$string
+com.coortouch.bnuz.activity.R$style
+com.coortouch.bnuz.activity.R$styleable:
+====    1144:1144:public R$styleable()
+hirondelle.date4j.DateTime
+hirondelle.date4j.DateTime$DayOverflow
+hirondelle.date4j.DateTime$ItemOutOfRange
+hirondelle.date4j.DateTime$MissingItem
+hirondelle.date4j.DateTime$Unit
+hirondelle.date4j.DateTimeFormatter
+hirondelle.date4j.DateTimeFormatter$1
+hirondelle.date4j.DateTimeFormatter$CustomLocalization
+hirondelle.date4j.DateTimeFormatter$EscapedRange
+hirondelle.date4j.DateTimeFormatter$InterpretedRange
+hirondelle.date4j.DateTimeInterval
+hirondelle.date4j.DateTimeParser
+hirondelle.date4j.DateTimeParser$1
+hirondelle.date4j.DateTimeParser$Parts
+hirondelle.date4j.DateTimeParser$UnknownDateTimeFormat
+hirondelle.date4j.Examples
+hirondelle.date4j.ModelUtil
+hirondelle.date4j.ModelUtil$NullsGo
+hirondelle.date4j.ToStringUtil
+hirondelle.date4j.ToStringUtil$1
+hirondelle.date4j.ToStringUtil$Ping
+hirondelle.date4j.ToStringUtil$Pong
+hirondelle.date4j.Util
+org.apache.http.entity.mime.FormBodyPart
+org.apache.http.entity.mime.Header
+org.apache.http.entity.mime.HttpMultipart
+org.apache.http.entity.mime.HttpMultipart$1
+org.apache.http.entity.mime.HttpMultipartMode
+org.apache.http.entity.mime.MIME
+org.apache.http.entity.mime.MinimalField
+org.apache.http.entity.mime.MultipartEntity
+org.apache.http.entity.mime.content.AbstractContentBody
+org.apache.http.entity.mime.content.ByteArrayBody
+org.apache.http.entity.mime.content.ContentBody
+org.apache.http.entity.mime.content.ContentDescriptor
+org.apache.http.entity.mime.content.FileBody
+org.apache.http.entity.mime.content.InputStreamBody
+org.apache.http.entity.mime.content.StringBody

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+    android:background="@drawable/bg" >
+    <RelativeLayout
+	        android:id="@+id/rel1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/banner"
+	        android:padding="0dp"
+	        android:focusable="true"
+	        android:focusableInTouchMode="true" >
+	
+	        <Button
+	            android:id="@+id/btnAdmin"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerVertical="true"
+	            android:background="@drawable/bnuz_cate_login"
+	            android:layout_marginLeft="5dp"/>
+	
+	        <TextView
+	            android:id="@+id/txtTitle"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerInParent="true"
+	            android:text="京师宝典"
+	            android:textColor="@android:color/white"
+	            android:textSize="20sp" />
+	        
+	    </RelativeLayout>
+    
+    <ScrollView 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+	    android:layout_below="@+id/rel1"
+	    android:scrollbars="none"
+	    android:layout_above="@+id/imageView1"
+	   	android:layout_margin="10dp">
+        
+        <RelativeLayout 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical">
+	        
+	       
+	        
+	         <GridView
+		        android:id="@+id/grid"
+		        android:layout_width="fill_parent"
+		        android:layout_height="253dp"
+		        android:layout_marginTop="-22dp"
+		        android:horizontalSpacing="10dp"
+		        android:listSelector="@android:color/transparent"
+		        android:numColumns="3"
+		        android:stretchMode="columnWidth"
+		        android:verticalSpacing="10dp" 
+    			android:background="@drawable/bnuz_cate_bg"
+    			android:layout_below="@+id/rel2"
+			    android:layout_centerHorizontal="true"
+			    android:padding="0dp">
+    			
+		    </GridView>
+		    <RelativeLayout android:id="@+id/rel2"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+			    android:background="@drawable/bnuz_cate_icon_bg"
+			    android:layout_centerHorizontal="true">
+                 <ImageView android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:src="@drawable/bnuz_cate_icon"
+				    android:layout_centerInParent="true"
+				    android:adjustViewBounds="true"/>
+            </RelativeLayout>
+            
+		    
+		   
+	    </RelativeLayout>
+        
+    </ScrollView>
+    
+    
+    
+     <ImageView
+			    android:id="@+id/imageView1"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_alignParentBottom="true"
+			    android:layout_alignParentLeft="true"
+			    android:scaleType="fitXY"
+			    android:src="@drawable/bnuz_cate_bottom"/>
+    
+    
+    
+    
+	
+    <RelativeLayout android:id="@+id/loadingPage"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true">
+		
+		<ImageView android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:scaleType="fitXY"
+		    android:src="@drawable/loading"/>
+	</RelativeLayout>
+
+    <ProgressBar
+		    android:id="@+id/progressBar1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_centerInParent="true" />
+
+</RelativeLayout>

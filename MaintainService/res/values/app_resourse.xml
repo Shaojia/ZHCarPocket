@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    
+    <!-- 网络 -->
+    <string name="no_data">暂无数据</string>
+    
+    <string name="Online_Fail">网络连接有误，请检查网络连接！</string>
+    
+   
+    
+    <!-- push refresh -->
+    <string name="push_list_release">松开刷新</string>
+    <string name="push_list_push">下拉刷新</string>
+    <string name="push_list_refresh">正在刷新</string>
+    <string name="push_list_laseupdate">最近更新:</string>
+    
+    <!-- load more -->
+      <string name="list_loadmore">获取更多...</string>
+   
+    <string-array name="bnuz_topCate">
+	   <item>办事导航</item>
+	   <item>校园资讯</item>
+	   <item>校园地图</item>
+	   <item>教管系统</item>
+	   <item>系统设置</item>
+   </string-array>
+   
+   <string-array name="bnuz_morelist">
+	   <item>个人资料修改</item>
+	   <item>注销登录</item>
+	   <item>清除缓存</item>
+	   <item>使用帮助</item>
+	   <item>关于京师宝典</item>
+   </string-array>
+</resources>

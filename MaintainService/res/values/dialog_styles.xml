@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style
+    	name="selectorDialog"
+    	parent="@android:style/Theme.Dialog">
+    	<item name="android:windowFrame">@null</item><!--边框-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+    </style>
+</resources>

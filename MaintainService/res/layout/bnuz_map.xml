@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+    android:background="@drawable/bg" >
+    <RelativeLayout
+	        android:id="@+id/rel1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/banner"
+	        android:padding="0dp"
+	        android:focusable="true"
+	        android:focusableInTouchMode="true" >
+	
+	        <Button
+	            android:id="@+id/btnBack"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerVertical="true"
+	            android:background="@drawable/btn_home"
+	            android:layout_marginLeft="5dp"/>
+	
+	        <TextView
+	            android:id="@+id/txtTitle"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerInParent="true"
+	            android:text="京师宝典"
+	            android:textColor="@android:color/white"
+	            android:textSize="20sp" />
+	        
+	    </RelativeLayout>
+    
+   
+    
+    
+     <com.coortouch.android.gesture.imageview.GestureImageView
+			    android:id="@+id/imageView1"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:layout_below="@+id/rel1"
+			    android:layout_centerHorizontal="true"
+			    android:adjustViewBounds="true"
+			    android:src="@drawable/map"/>
+    
+    
+    
+    
+	
+    
+</RelativeLayout>

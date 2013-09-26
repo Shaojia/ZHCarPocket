@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/myListItem"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:descendantFocusability="blocksDescendants" 
+    android:orientation="horizontal">
+    
+
+        <ImageView
+            android:id="@+id/item_More"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/bnuz_more_more" />
+
+        <TextView
+            android:id="@+id/item_Title"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical"
+            android:layout_toLeftOf="@+id/item_More"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:paddingLeft="5dp"		
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:text="学校官网" />
+</RelativeLayout>

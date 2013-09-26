@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res/com.coortouch.maintainservice.activity"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bnuz_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/banner"
+        android:padding="0dip" >
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/btn_back" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="10dp"
+            android:text="京师宝典"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:scrollbars="none"  >
+
+        <LinearLayout android:id="@+id/container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+        	android:layout_marginTop="20dp"
+            android:background="@drawable/gray_background_corner"
+            android:orientation="vertical" >
+            
+            <TextView
+	                    android:id="@+id/login_name"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginLeft="10dp"
+	                    android:textColor="@color/txtword"
+	                    android:textStyle="bold"
+	                    android:textSize="18sp"
+	                    android:text="个人资料修改" 
+	                    android:paddingLeft="15dp"
+	                    android:layout_marginTop="15dp"/>
+            <ImageView android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:background="@drawable/bnuz_modify_top_bg"
+	                    android:layout_marginLeft="10dp"/>
+            
+            
+            
+            
+			    <TableRow 
+		            android:layout_width="fill_parent"
+		            android:layout_height="40dp"
+		            android:layout_marginLeft="10dp"
+		            android:layout_marginRight="10dp"
+		            android:layout_marginTop="10dp"
+		            android:orientation="horizontal"
+		            android:gravity="center_vertical">
+	                <TextView
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginLeft="10dp"
+	                    android:textColor="@color/txtword"
+	                    android:text="学号：" />
+	                 <TextView
+	                    android:id="@+id/txtNum"
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="wrap_content"
+	                    android:paddingLeft="5dp"
+	                    android:textColor="@color/txtword"
+	                    android:text="07589546854" />
+	                 
+	       
+	            </TableRow>
+	            
+			    <TableRow 
+		            android:layout_width="fill_parent"
+		            android:layout_height="40dp"
+		            android:layout_marginLeft="10dp"
+		            android:layout_marginRight="10dp"
+		            android:orientation="horizontal"
+		            android:gravity="center_vertical">
+	                <TextView
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginLeft="10dp"
+	                    android:textColor="@color/txtword"
+	                    android:text="身份证号：" />
+	                 <TextView
+	                    android:id="@+id/txtCode"
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="wrap_content"
+	                    android:paddingLeft="5dp"
+	                    android:textColor="@color/txtword"
+	                    android:text="4408546548987644564899" />
+	                 
+	       
+	            </TableRow>
+            
+            
+			    <TableRow 
+		            android:layout_width="fill_parent"
+		            android:layout_height="40dp"
+		            android:layout_marginLeft="10dp"
+		            android:layout_marginRight="20dp"
+		            android:layout_marginTop="10dp"
+		            android:orientation="horizontal"
+		            android:gravity="center_vertical"
+	                android:background="@drawable/detail_txt_corner">
+	                <TextView
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginLeft="10dp"
+	                    android:textColor="@color/black"
+	                    android:text="姓名：" />
+	                 <EditText
+	                    android:id="@+id/txtName"
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="wrap_content"
+	                    android:paddingLeft="5dp"
+	                    android:inputType="text"
+	                    android:singleLine="true" 
+	                    android:background="@android:color/transparent"/>
+	                 
+	       
+	            </TableRow>
+	                
+				<TableRow 
+		            android:layout_width="fill_parent"
+		            android:layout_height="40dp"
+		            android:layout_marginLeft="10dp"
+		            android:layout_marginRight="20dp"
+		            android:layout_marginTop="10dp"
+		            android:orientation="horizontal"
+		            android:gravity="center_vertical"
+	                android:background="@drawable/detail_txt_corner">
+	                <TextView
+	                    android:id="@+id/login_password"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginLeft="10dp"
+	                    android:textColor="@color/black" 
+	                    android:text="密码："/>
+	
+	                <EditText
+	                    android:id="@+id/txtPassword"
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="wrap_content"
+	                    android:paddingLeft="5dp"
+	                    android:singleLine="true" 
+	                    android:inputType="textPassword"
+	                    android:hint="不修改密码为空"
+	                    android:background="@android:color/transparent"/>
+	            </TableRow>
+	            
+				<TableRow 
+		            android:layout_width="fill_parent"
+		            android:layout_height="40dp"
+		            android:layout_marginLeft="10dp"
+		            android:layout_marginRight="20dp"
+		            android:layout_marginTop="10dp"
+		            android:orientation="horizontal"
+		            android:gravity="center_vertical">
+	                <TextView
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginLeft="10dp"
+	                    android:textColor="@color/gray" 
+	                    android:text="性别："/>
+	
+	                <com.coortouch.android.switchbutton.SwitchButton 
+					        android:id="@+id/switchButton"
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        app:switchState="false" />
+				
+
+	            </TableRow>
+	                
+				<TableRow 
+		            android:layout_width="fill_parent"
+		            android:layout_height="40dp"
+		            android:layout_marginLeft="10dp"
+		            android:layout_marginRight="20dp"
+		            android:layout_marginTop="10dp"
+		            android:orientation="horizontal"
+		            android:gravity="center_vertical"
+	                android:background="@drawable/detail_txt_corner">
+	                <TextView
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginLeft="10dp"
+	                    android:textColor="@color/black" 
+	                    android:text="电话："/>
+	
+	                <EditText
+	                    android:id="@+id/txtTel"
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="wrap_content"
+	                    android:paddingLeft="5dp"
+	                    android:singleLine="true" 
+	                    android:background="@android:color/transparent"/>
+	            </TableRow>
+	                
+				<TableRow 
+		            android:layout_width="fill_parent"
+		            android:layout_height="40dp"
+		            android:layout_marginLeft="10dp"
+		            android:layout_marginRight="20dp"
+		            android:layout_marginTop="10dp"
+		            android:orientation="horizontal"
+		            android:gravity="center_vertical"
+	                android:background="@drawable/detail_txt_corner">
+	                <TextView
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginLeft="10dp"
+	                    android:textColor="@color/black" 
+	                    android:text="邮件："/>
+	
+	                <EditText
+	                    android:id="@+id/txtEmail"
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="wrap_content"
+	                    android:paddingLeft="5dp"
+	                    android:singleLine="true" 
+	                    android:background="@android:color/transparent"/>
+	            </TableRow>
+	                
+				<TableRow 
+		            android:layout_width="fill_parent"
+		            android:layout_height="40dp"
+		            android:layout_marginLeft="10dp"
+		            android:layout_marginRight="20dp"
+		            android:layout_marginTop="10dp"
+		            android:orientation="horizontal"
+		            android:gravity="center_vertical"
+	                android:background="@drawable/detail_txt_corner">
+	                <TextView
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginLeft="10dp"
+	                    android:textColor="@color/black" 
+	                    android:text="QQ："/>
+	
+	                <EditText
+	                    android:id="@+id/txtQQ"
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="wrap_content"
+	                    android:paddingLeft="5dp"
+	                    android:singleLine="true" 
+	                    android:background="@android:color/transparent"/>
+	            </TableRow>
+				
+				<View 
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="1dp"
+	                    android:background="@drawable/bnuz_login_split"
+	                    android:layout_marginTop="30dp"
+	                    android:layout_marginLeft="20dp"
+	                    android:layout_marginRight="20dp"/>
+				
+	                <Button
+	                    android:id="@+id/login_button"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_gravity="center_horizontal"
+	                    android:layout_marginTop="30dp"
+	                    android:layout_marginBottom="30dp"
+	                    android:background="@drawable/bnuz_modify_submit" />
+       
+			</LinearLayout>
+			
+    </ScrollView>
+
+</LinearLayout>

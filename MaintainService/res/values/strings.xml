@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">京师宝典</string>
+	<string name="msg_post">提交</string>
+	<string name="msg_edit">編寫留言</string>
+	<string name="msg_wall">留言墻</string>
+	<string name="msg_detcontent">詳細內容</string>
+	<string name="msg_report">询盘</string>
+	<string name="msg_writenew">編寫新留言</string>
+	<string name="msg_postsucc">提交成功</string>
+	<string name="msg_postfailed">提交失敗</string>
+	<string name="report_contantway">聯繫方式(選填):</string>
+	<string name="report_reason">舉報原因:           請輸入完成後點擊提交</string>
+	<string name="msg_warning">請填寫內容</string>
+	<string name="msg_warningcount">字數不要超過140!</string>
+	<string name="shareaccount_edit">編輯</string>
+	<string name="shareaccount_content">分享账号</string>
+	<string name="msg_attention">是否想清除文字？</string>    
+	<string name="msg_commit">提交中...</string>      
+	
+	 <string name="shareway_facebook">你将使用facebok账号发表留言</string>
+    <string name="shareway_weibo">你将使用weibo账号发表留言</string>
+	<string name="attention">提示</string>
+    <string name="delete_all">是否想刪除这条微博？</string>
+    <string name="ok">是</string>
+    <string name="cancel">否</string>
+    <string name="logout_facebook">你确定要注销facebook？</string>
+    <string name="logout_weibo">你确定要注销Weibo？</string>
+    <string name="logout_tencent">你确定要注销腾讯Weibo？</string>
+    <string name="logout_twitter">你确定要注销Twitter？</string>
+    <string name="share_expired">已过期，请重新登录！</string>
+    <string name="logout">注销成功</string>
+    
+    <string name="share_weibo">分享到新浪微博</string> 
+    <string name="share_facebook">分享到facebook</string> 
+    <string name="send">发送</string>
+    <string name="close">关闭</string>
+    <string name="share_dialog_title">新浪微博</string>
+    <string name="please_login">请登录！</string>
+    <string name="send_sucess">分享成功！</string>
+    <string name="send_failed">分享失败！</string>
+    <string name="del_pic">是否删除图片？</string>
+    <string name="oauth_suc">登录成功！</string>
+    <string name="oauth_expiretime">帳號已過期，請重新登入！</string>
+        
+    <drawable name="bkwhite">#FFFFFF</drawable>
+        
+<!--     <string-array name="sharewayzh">
+        <item>新浪微博</item>
+        <item>腾讯微博</item>
+        <item>FaceBook</item>
+        <item>Twitter</item>
+    </string-array> -->
+    
+    
+        
+    <!-- updateVisionService -->
+    <string name="vision_startdownload">开始下载</string>
+    <string name="vision_completedownload">下载完成，点击安裝</string>
+    <string name="vision_downloading">正在下载</string>
+
+      <!-- checkVision -->
+     <string name="vision_checknew">请稍后正在检测是否有最新版本...</string>
+    <string name="vision_nonew">未能检测到新版本</string>
+    <string name="vision_isnew">当前版本已是最新</string> 
+    <string name="vision_softUpgrade">软件升級</string>
+    <string name="vision_foundnew">发现新版本，建议立即更新使用</string>
+    <string name="vision_update">更新</string> 
+      <string name="vision_sure">确定</string> 
+    <string name="vision_cancel">取消</string> 
+</resources>

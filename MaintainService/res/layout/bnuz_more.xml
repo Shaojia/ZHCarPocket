@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/banner_single"
+        android:padding="0dp" >
+
+	
+	        <Button
+	            android:id="@+id/btnBack"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerVertical="true"
+	            android:background="@drawable/btn_home"
+	            android:layout_marginLeft="5dp"/>
+		<TextView 
+		    android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_centerInParent="true"
+        	android:text="京师宝典"
+        	android:layout_centerVertical="true"
+        	android:textColor="@color/white"
+        	android:textSize="20sp"
+        	android:layout_marginRight="5dp"
+		    />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/list_more"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@color/lightgray"
+        android:dividerHeight="0.5dp"
+        android:listSelector="@android:color/transparent"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/detail_txt_corner" >
+    </ListView>
+    
+</LinearLayout>
